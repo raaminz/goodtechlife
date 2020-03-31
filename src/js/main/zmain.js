@@ -1,13 +1,13 @@
 (function( $, window, undefined ) {
   // Menu
   $("#menu").click(function() {
-    $("body").addClass("push-menu-to-right");
+    $("body").addClass("push-menu-to-left");
     $("#sidebar").addClass("open");
     $(".overlay").addClass("show");
   });
 
   $("#mask").click(function() {
-    $("body").removeClass("push-menu-to-right");
+    $("body").removeClass("push-menu-to-left");
     $("#sidebar").removeClass("open");
     $(".overlay").removeClass("show");
   });

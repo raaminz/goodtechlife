@@ -5,7 +5,6 @@
         {% include minutes-to-read.html %}
         {% include svg-icons.html %}
         {% include header.html %}
-
         <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
             <article role="article" class="post-content">
                 <p class="post-info">
@@ -21,7 +20,7 @@
                 <h1 class="post-title">{{ page.title }}</h1>
                 <p class="post-subtitle">{{ page.subtitle }}</p>
 
-                {% if page.image and paginator.activated == nil %}
+                {% if page.image and paginator.activated == nil and page.hideCover == nil or page.hideCover == false %}
                     <img src="{{ page.image }}" alt="Featured image" class="post-cover">
                 {% endif %}
 

@@ -13,17 +13,17 @@ body.has-push-menu .progress-bar {
 body.has-push-menu {
   overflow-x: hidden;
   position: relative;
-  left: 0;
+  right: 0;
 
-  &.push-menu-to-right {
-    left: rem(240px);
+  &.push-menu-to-left {
+    right: rem(240px);
 
     .progress-bar {
-      left: rem(240px);
+      right: rem(240px);
     }
 
     .bar-header {
-      left: rem(240px);
+      right: rem(240px);
     }
   }
 }
@@ -33,7 +33,7 @@ aside.sidebar {
   width: rem(240px);
   height: 100%;
   top: 0;
-  left: rem(-240px);
+  right: rem(-240px);
   background-color: $accentDark;
   z-index: 20;
 
@@ -42,7 +42,7 @@ aside.sidebar {
   }
 
   &.open {
-    left: 0;
+    right: 0;
   }
 
   h2 {

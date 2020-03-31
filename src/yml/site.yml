@@ -1,21 +1,20 @@
-name: Diego
-title: Coflow
-description: Diegofornalha
+name: GoodTechLife
+title: GoodTechLife
+description: چرا حریم خصوصی مهم است؟
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
 show_hero: true
 menu:
-  - title: Home
+  - title: خانه
     url: /
-  - title: About
+  - title: درباره ما
     url: /about
-  - title: Contact
+  - title: ارتباط با ما
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@xyz.com
-disqus_username: disqus_username
+email:
+disqus_username:
+translations:
+  button:
+    read_now: بیشتر بخوانید
