@@ -19,6 +19,13 @@ disqus_username:
 translations:
   button:
     read_now: بیشتر بخوانید
+    share_on_twitter: اشتراک گذاری در توییتر
+    share_on_facebook: اشتراک گذاری در فیس بوک
+  text:
+    minutes_to_read: دقیقه خوانش
+    see_also: همچنین بخوانید
+    share: به اشتراک بگذارید
+    author: ارسال کننده
 
 # Social Media Settings
 # Remove the item if you don't need it

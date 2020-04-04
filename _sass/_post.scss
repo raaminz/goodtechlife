@@ -126,10 +126,10 @@
     }
 
     time {
-      margin-right: rem(10px);
+      margin-left: rem(10px);
 
       @include media(">=sm") {
-        margin-right: rem(30px);
+        margin-left: rem(30px);
       }
     }
   }
