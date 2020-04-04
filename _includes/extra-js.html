@@ -1,0 +1,11 @@
+<script>
+$(function() {
+    $('time').each(function() {
+         let time = $(this);
+         if(time.attr('datetime')){
+           let converted = new Date(time.attr('datetime')).toLocaleDateString('fa-IR');
+           time.text(converted);
+         }
+    });
+});
+</script>

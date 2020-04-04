@@ -136,6 +136,7 @@
     }
 
     .tags a {
+      direction: ltr;
       height: rem(30px);
       line-height: rem(26px);
       color: $accentDark;
@@ -145,6 +146,7 @@
       display: inline-block;
       margin: 0 rem(10px) rem(10px) 0;
       z-index: 50;
+      padding-top: 3px;
 
       &:hover {
         color: $primaryDark;
