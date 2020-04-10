@@ -6,10 +6,10 @@ subtitle: در این پست ده دلیل برای اهمیت حریم خصوص
 description: >-
   .ز دید خیلی ها نقض حریم خصوصی اغلب مزاحمت کم اهمیتی است.  اما اصلاً اینطور نیست.در این پست ده دلیل برای اهمیت حریم خصوصی آورده میشود 
 image: >-
-  https://cdn.pixabay.com/photo/2017/10/30/18/44/hacking-2903156_960_720.jpg
+  assets/img/hacking-2903156_960_720.jpg
 optimized_image: >-
-  https://cdn.pixabay.com/photo/2017/10/30/18/44/hacking-2903156_960_720.jpg
-category: Digital life
+  assets/img/hacking-2903156_960_720.jpg
+category: زندگی دیجیتال
 tags:
   - digital_life
 author: ramin_zare
@@ -51,3 +51,6 @@ paginate: true
 
 10. عدم نیاز به توضیح یا توجیه خود
 یک دلیل مهم برای اهمیت حریم خصوصی، عدم نیاز به توضیح یا توجیه خود است. ما شاید خیلی کارها را انجام دهیم که اگر به وسیله افراد فاقد فهم یا دانش کامل، قضاوت شود عجیب، خجالت‌آور و یا خیلی بد به نظر بیاید. اگر لازم باشد ما پیوسته نگران باشیم هرکاری که میکنیم چطور از دید دیگران ادراک میشود و مرتبا خود را آماده کنیم تا توضیح بدهیم این بار سنگینی روش دوش ما خواهد بود.
+
+----
+منبع :‌ <span dir="ltr"> [https://teachprivacy.com/10-reasons-privacy-matters/](https://teachprivacy.com/10-reasons-privacy-matters/)</span>

@@ -13,7 +13,7 @@ image: >-
   https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/9cedb434-8aa8-4bbb-8b62-f46767b96945/ManoushZomorodi_2017-embed.jpg?op=%5E&c=1280%2C720&gravity=t&u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82&w=1280&h=720
 optimized_image: >-
   https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/9cedb434-8aa8-4bbb-8b62-f46767b96945/ManoushZomorodi_2017-embed.jpg?op=^&c=1280%2C720&gravity=t&u[r]=2&u[s]=0.5&u[a]=0.8&u[t]=0.03&quality=20&h=380
-category: Digital life
+category: زندگی دیجیتال
 tags:
   - digital_life
   - ted
