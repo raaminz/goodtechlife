@@ -1,5 +1,10 @@
 <footer>
     <p>
+        {% if site.mastodon_username %}
+        <a href="https://mastodon.social/@{{ site.mastodon_username }}" title="Mastodon">
+            <svg><use xlink:href="#icon-mastodon"></use></svg>
+        </a>
+        {% endif %}
       {% if site.github_username %}
         <a href="https://github.com/{{ site.github_username }}" title="Github">
           <svg><use xlink:href="#icon-github"></use></svg>

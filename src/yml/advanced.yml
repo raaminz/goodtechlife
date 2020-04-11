@@ -1,5 +1,5 @@
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.goodtechlife.com" # the base hostname & protocol for your site
+url: "http://www.goodtechlife.com" # the base hostname & protocol for your site
 google_analytics:
 language: "fa"
 categories_folder: category

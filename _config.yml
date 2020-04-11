@@ -32,13 +32,13 @@ translations:
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username:
+github_username: goodtechlife
 facebook_username:
-twitter_username:
+twitter_username: goodtechlife_w
 instagram_username:
 linkedin_username:
 medium_username:
-
+mastodon_username: goodtechlife
 
 # Posts Settings
 show_time_bar: false
@@ -49,7 +49,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.goodtechlife.com" # the base hostname & protocol for your site
+url: "http://www.goodtechlife.com" # the base hostname & protocol for your site
 google_analytics:
 language: "fa"
 categories_folder: category
