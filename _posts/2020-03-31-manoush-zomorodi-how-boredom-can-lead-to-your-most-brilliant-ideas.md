@@ -17,7 +17,7 @@ category: زندگی دیجیتال
 tags:
   - digital_life
   - ted
-author: ramin_zare
+author: raminzare
 paginate: true
 hideCover: true
 ---

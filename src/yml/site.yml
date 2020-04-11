@@ -11,6 +11,8 @@ menu:
     url: /about
   - title: ارتباط با ما
     url: /contact
+  - title: برچسب ها
+    url: /tags
   - title: Feed
     url: /feed.xml
 email:

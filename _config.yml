@@ -12,6 +12,8 @@ menu:
     url: /about
   - title: ارتباط با ما
     url: /contact
+  - title: برچسب ها
+    url: /tags
   - title: Feed
     url: /feed.xml
 email:
@@ -47,7 +49,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "www.goodtechlife.com" # the base hostname & protocol for your site
 google_analytics:
 language: "fa"
 categories_folder: category

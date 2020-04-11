@@ -12,7 +12,7 @@ optimized_image: >-
 category: حریم خصوصی
 tags:
   - privacy
-author: ramin_zare
+author: raminzare
 paginate: true 
 ---
 
