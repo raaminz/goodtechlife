@@ -4,14 +4,14 @@ layout: post
 title: چرا حریم خصوصی مهم است؟
 subtitle: در این پست ده دلیل برای اهمیت حریم خصوصی آورده میشود
 description: >-
-  .ز دید خیلی ها نقض حریم خصوصی اغلب مزاحمت کم اهمیتی است.  اما اصلاً اینطور نیست.در این پست ده دلیل برای اهمیت حریم خصوصی آورده میشود 
+  از دید خیلی ها نقض حریم خصوصی اغلب مزاحمت کم اهمیتی است.  اما اصلاً اینطور نیست.در این پست ده دلیل برای اهمیت حریم خصوصی آورده میشود 
 image: >-
-  assets/img/hacking-2903156_960_720.jpg
+  /assets/img/hacking-2903156_960_720.jpg
 optimized_image: >-
-  assets/img/hacking-2903156_960_720.jpg
-category: زندگی دیجیتال
+  /assets/img/hacking-2903156_960_720.jpg
+category: حریم خصوصی
 tags:
-  - digital_life
+  - privacy
 author: ramin_zare
 paginate: true 
 ---
