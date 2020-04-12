@@ -2,6 +2,7 @@
 name: GoodTechLife
 title: GoodTechLife
 description: چرا حریم خصوصی مهم است؟
+hyvor_username: 440
 tags:
   - blog
 show_hero: true
@@ -29,6 +30,9 @@ translations:
     share: به اشتراک بگذارید
     author: ارسال کننده
     menu: منو
+    comments: نظرات
+
+
 
 # Social Media Settings
 # Remove the item if you don't need it
