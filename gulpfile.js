@@ -165,6 +165,12 @@ function images() {
     .pipe(gulp.dest('assets/img/'));
 }
 
+function readme(){
+  return gulp.src('_includes/readme.html')
+  .pipe(rename('./README.md'))
+  .pipe(gulp.dest('./'));
+}
+
 /**
  * Watch Task
  * 
@@ -203,7 +209,7 @@ function watch() {
  * - Compile the Jekyll site
  * - Launch BrowserSync & watch files
  */
-exports.default = gulp.series(gulp.parallel(js, theme, images), config, jekyll, gulp.parallel(server, watch));
+exports.default = gulp.series(gulp.parallel(js, theme, images, readme), config, jekyll, gulp.parallel(server, watch));
 
 /**
  * Build Task
@@ -214,4 +220,4 @@ exports.default = gulp.series(gulp.parallel(js, theme, images), config, jekyll, 
  * - Build the config file
  * - Compile the Jekyll site
  */
-exports.build = gulp.series(gulp.parallel(js, theme, images), config, jekyll);
+exports.build = gulp.series(gulp.parallel(js, theme, images, readme), config, jekyll);
