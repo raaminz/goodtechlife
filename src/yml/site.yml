@@ -10,12 +10,15 @@ menu:
     url: /
   - title: درباره ما
     url: /about
-  - title: ارتباط با ما
-    url: /contact
+  - title: مشارکت با ما
+    url: /contributing
   - title: برچسب ها
     url: /tags
+  - title: مشارکت کنندگان
+    url: /authors
   - title: Feed
     url: /feed.xml
+    target: _blank
 email:
 disqus_username:
 translations:
@@ -24,7 +27,7 @@ translations:
     share_on_twitter: اشتراک گذاری در توییتر
     share_on_facebook: اشتراک گذاری در فیس بوک
   text:
-    minutes_to_read: دقیقه خوانش
+    minutes_to_read: دقیقه خواندن
     see_also: همچنین بخوانید
     share: به اشتراک بگذارید
     author: ارسال کننده

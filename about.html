@@ -1,0 +1,11 @@
+---
+layout: page
+title: درباره ی ما
+description: درباره ی ما
+permalink: /about/
+---
+
+<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Good tech Life" width="200">
+
+{% capture my_include %}{% include about.html %}{% endcapture %}
+{{ my_include | markdownify }}

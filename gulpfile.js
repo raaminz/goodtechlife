@@ -171,6 +171,12 @@ function readme(){
   .pipe(gulp.dest('./'));
 }
 
+function readme(){
+  return gulp.src('_includes/contributing.html')
+  .pipe(rename('./CONTRIBUTING.md'))
+  .pipe(gulp.dest('./'));
+}
+
 /**
  * Watch Task
  * 

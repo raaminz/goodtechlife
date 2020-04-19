@@ -35,12 +35,17 @@
           <svg><use xlink:href="#icon-linkedin"></use></svg>
         </a>
       {% endif %}
+      {% if site.email_username %}
+        <a href="mailto:{{ site.email_username }}" title="Email">
+          <svg><use xlink:href="#icon-email"></use></svg>
+        </a>
+      {% endif %}
     </p>
 
     {% include links.html %}
 
     <p>
-<!--     TODO add footer stuff -->
+    <!-- TODO add footer stuff -->
     </p>
 </footer>
 
