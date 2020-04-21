@@ -9,7 +9,7 @@
 
 ## با گیت هاب آشنا هستم
 
-پروژه ی متن بازی در گیت هاب ساخته شده که میتوانید پیشنهادات خود را در قالب issue برای ما بنویسید.
+این وبلاگ به صورت پروژه ای متن باز در گیت هاب ساخته شده که میتوانید پیشنهادات خود را در قالب issue برای ما بنویسید.
 
 لینک پروژه :‌ [https://github.com/goodtechlife/goodtechlife.github.io](https://github.com/goodtechlife/goodtechlife.github.io)
 
