@@ -1,18 +1,19 @@
-let gulp         = require('gulp'),
-    concat       = require('gulp-concat'),
-    imagemin     = require('gulp-imagemin'),
-    include      = require('gulp-include'),
-    plumber      = require('gulp-plumber'),
-    rename       = require('gulp-rename'),
-    sourcemaps   = require('gulp-sourcemaps'),
-    uglify       = require('gulp-uglify'),
-    yaml         = require('gulp-yaml'),
-    browserSync  = require('browser-sync'),
-    cp           = require('child_process'),
-    del          = require('del'),
-    fs           = require('fs'),
-    jsonSass     = require('json-sass'),
-    source       = require('vinyl-source-stream');
+let gulp = require('gulp'),
+  concat = require('gulp-concat'),
+  imagemin = require('gulp-imagemin'),
+  include = require('gulp-include'),
+  plumber = require('gulp-plumber'),
+  rename = require('gulp-rename'),
+  sourcemaps = require('gulp-sourcemaps'),
+  uglify = require('gulp-uglify'),
+  yaml = require('gulp-yaml'),
+  browserSync = require('browser-sync'),
+  cp = require('child_process'),
+  del = require('del'),
+  fs = require('fs'),
+  jsonSass = require('json-sass'),
+  source = require('vinyl-source-stream'),
+  edit = require('gulp-edit');
 
 /**
  * Notify
@@ -165,18 +166,28 @@ function images() {
     .pipe(gulp.dest('assets/img/'));
 }
 
-function readme(){
+function readme() {
   notify('Copying readme file...');
   return gulp.src('_includes/about.html')
-  .pipe(rename('./README.md'))
-  .pipe(gulp.dest('./'));
+    .pipe(edit(function (src, cb) {
+      var err = null
+      src = '<div dir="rtl">\n' + src + "\n</div>"
+      cb(err, src)
+    }))
+    .pipe(rename('./README.md'))
+    .pipe(gulp.dest('./'));
 }
 
-function contributing(){
+function contributing() {
   notify('Copying contributing file...');
   return gulp.src('_includes/contributing.html')
-  .pipe(rename('./CONTRIBUTING.md'))
-  .pipe(gulp.dest('./'));
+    .pipe(edit(function (src, cb) {
+      var err = null
+      src = '<div dir="rtl">\n' + src + "\n</div>"
+      cb(err, src)
+    }))
+    .pipe(rename('./CONTRIBUTING.md'))
+    .pipe(gulp.dest('./'));
 }
 
 const repoDescription = gulp.series(readme, contributing);

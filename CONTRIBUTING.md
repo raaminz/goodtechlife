@@ -1,3 +1,4 @@
+<div dir="rtl">
 # همکاری
 
 ## آشنا به گیت هاب نیستم
@@ -25,3 +26,5 @@
 ### اجرای محلی سایت
 
 مخزن را روی سیستم خود clone بگیرید و سپس طبق [این آموزش](https://github.com/thiagorossener/jekflix-template/wiki/setup) آن را روی کامپیوتر خود اجرا بگیرید.
+
+</div>

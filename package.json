@@ -36,6 +36,7 @@
     "json-sass": "^1.3.5",
     "lodash": "^4.17.13",
     "lodash.merge": "^4.6.2",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "gulp-edit": "^0.0.1"
   }
 }
