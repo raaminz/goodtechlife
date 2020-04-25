@@ -37,6 +37,27 @@
     padding: rem(60px) rem(10px) 0;
   }
 
+  div.icon_logo {
+      text-align:center;
+      svg {
+        transition: all .4s;
+        .st0 {
+            enable-background: new;
+        }
+        .st1 {
+            fill: #0D7E80;
+        }
+
+        .st2 {
+            fill: #424242;
+        }
+    
+        @include media(">=sm") {
+          width: rem(400px);
+        }
+      }
+  }
+
   img {
     max-width: 100%;
     margin: rem(0px) auto;
@@ -654,6 +675,7 @@
         background-color: $primaryDark;
       }
     }
+
   }
 
   .tag-title {
@@ -711,4 +733,5 @@
       }
     }
   }
+
 }

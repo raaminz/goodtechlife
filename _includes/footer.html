@@ -41,13 +41,20 @@
         </a>
       {% endif %}
     </p>
+    <div class="row">
+      <div class="column">
+        {% include logo_icon.html %}
+      </div>
+      <div class="column" >
+      {% include links.html %}
+       </div>
 
-    {% include links.html %}
-
+    </div>
     <p>
     <!-- TODO add footer stuff -->
     </p>
 </footer>
+
 
 {% assign social_urls = '' %}
 {% if site.github_username %}

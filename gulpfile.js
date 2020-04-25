@@ -171,7 +171,7 @@ function readme() {
   return gulp.src('_includes/about.html')
     .pipe(edit(function (src, cb) {
       var err = null
-      src = '<div dir="rtl">\n' + src + "\n</div>"
+      src = '<div dir="rtl">\n\n' + src + "\n</div>"
       cb(err, src)
     }))
     .pipe(rename('./README.md'))
@@ -183,7 +183,7 @@ function contributing() {
   return gulp.src('_includes/contributing.html')
     .pipe(edit(function (src, cb) {
       var err = null
-      src = '<div dir="rtl">\n' + src + "\n</div>"
+      src = '<div dir="rtl">\n\n' + src + "\n</div>"
       cb(err, src)
     }))
     .pipe(rename('./CONTRIBUTING.md'))
