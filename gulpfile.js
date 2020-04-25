@@ -166,16 +166,20 @@ function images() {
 }
 
 function readme(){
-  return gulp.src('_includes/readme.html')
+  notify('Copying readme file...');
+  return gulp.src('_includes/about.html')
   .pipe(rename('./README.md'))
   .pipe(gulp.dest('./'));
 }
 
-function readme(){
+function contributing(){
+  notify('Copying contributing file...');
   return gulp.src('_includes/contributing.html')
   .pipe(rename('./CONTRIBUTING.md'))
   .pipe(gulp.dest('./'));
 }
+
+const repoDescription = gulp.series(readme, contributing);
 
 /**
  * Watch Task
@@ -215,7 +219,7 @@ function watch() {
  * - Compile the Jekyll site
  * - Launch BrowserSync & watch files
  */
-exports.default = gulp.series(gulp.parallel(js, theme, images, readme), config, jekyll, gulp.parallel(server, watch));
+exports.default = gulp.series(gulp.parallel(js, theme, images, repoDescription), config, jekyll, gulp.parallel(server, watch));
 
 /**
  * Build Task
@@ -223,7 +227,8 @@ exports.default = gulp.series(gulp.parallel(js, theme, images, readme), config, 
  * Running just `gulp build` will:
  * - Compile the theme, SASS and JavaScript files
  * - Optimize and copy images to its folder
+ * - Copy README.md and CONTRIBUTING.md
  * - Build the config file
  * - Compile the Jekyll site
  */
-exports.build = gulp.series(gulp.parallel(js, theme, images, readme), config, jekyll);
+exports.build = gulp.series(gulp.parallel(js, theme, images, repoDescription), config, jekyll);
