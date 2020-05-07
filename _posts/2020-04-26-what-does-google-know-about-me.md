@@ -13,6 +13,7 @@ category: حریم خصوصی
 tags:
     - privacy
     - google
+    - duckduckgo
 author: raminzare
 paginate: true
 ---

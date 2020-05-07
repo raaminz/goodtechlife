@@ -149,13 +149,11 @@ main() {
     # Show help
     if [[ "${1}" == "-h" || "${1}" == "--help" ]]; then
         initpost_help ${1}
-        exit
     fi
 
     # Create
     if [[ "${1}" == "-c" || "${1}" == "--create" ]]; then
         initpost_file $*
-        exit
     fi
 
 }
