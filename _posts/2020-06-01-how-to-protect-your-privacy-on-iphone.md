@@ -111,3 +111,6 @@ DuckDuckGo موتور جستجو گر بدون ردیابی است که اطلا
 ![](https://spreadprivacy.com/content/images/2018/02/DuckDuckGo_SideBySide.jpg)
 
 تبریک! شما همین حالا یک قدم بزرگ برای بالا بردن حریم شخصی گوشی و محافظت از داده‌ها بر روی ایفون یا آی پدتان برداشته اید. 
+
+------------
+منبع :‌ [https://spreadprivacy.com/iphone-privacy-tips/](https://spreadprivacy.com/iphone-privacy-tips/)
