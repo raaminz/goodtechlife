@@ -8,17 +8,17 @@ tags:
 show_hero: true
 menu:
   - title: خانه
-    url: /
+    url: /goodtechlife
   - title: درباره ما
-    url: /about
+    url: /goodtechlife/about
   - title: مشارکت
-    url: /contributing
+    url: /goodtechlife/contributing
   - title: برچسب ها
-    url: /tags
+    url: /goodtechlife/tags
   - title: مشارکت کنندگان
-    url: /authors
+    url: /goodtechlife/authors
   - title: Feed
-    url: /feed.xml
+    url: /goodtechlife/feed.xml
     target: _blank
 email:
 disqus_username:
@@ -57,7 +57,7 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "/goodtechlife" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zare88.github.io/goodtechlife" # the base hostname & protocol for your site
 google_analytics:
 language: "fa"
